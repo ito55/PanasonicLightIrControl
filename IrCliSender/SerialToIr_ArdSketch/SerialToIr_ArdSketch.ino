@@ -1,5 +1,8 @@
 // IR Sender Sketch for Command Prompt Control
 // Connect IR LED to Pin 3 (with a transistor or suitable driver circuit)
+//
+// Library Dependencies:
+// - IRremote v4.5.0 (https://github.com/Arduino-IRremote/Arduino-IRremote)
 
 #include <Arduino.h>
 #include <IRremote.hpp>
